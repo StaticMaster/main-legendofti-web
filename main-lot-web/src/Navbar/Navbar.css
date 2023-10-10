@@ -7,6 +7,7 @@
   padding: 10px;
   height: 70px; /* Adjust the height as needed */
   border-color: black;
+  width: 100vw;
 }
 
 /* Profile picture styles */
@@ -42,3 +43,27 @@ a:hover {
   text-decoration-color: #FFB6AD;
   text-decoration-thickness: 5px;
 }
+
+/* @media (max-width: 1440px) {
+  a {
+    font-size: 16px; 
+    padding-left: 110px;
+    text-decoration: none;
+    color: #000000;
+    transition-duration: 0.5s;
+    padding-left: 110px;
+  }
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #FFB6AD;
+    text-decoration-thickness: 5px;}
+
+  .navbar{
+    width: 100%;
+  } */
+
+  /* .main-pfp {
+    width: 100px;
+    height: 110px;
+    margin-right: 20px;
+  }   */
