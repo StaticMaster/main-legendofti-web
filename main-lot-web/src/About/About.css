@@ -1,0 +1,23 @@
+.about-section{
+    background-color: black;
+    margin: 0;
+    height: 60vh;
+}
+
+.about-text{
+    color: white;
+    margin: 0;
+    font-size: 33px;
+    display: flex;
+    font-family: "Open-Sans";
+    text-align:center;
+    padding-top: 140px;
+    padding-right: 51px;
+}
+
+.ti-main-pic{
+    height: 450px;
+    width: 650px;
+    float: right;
+    padding-right:120px;
+}

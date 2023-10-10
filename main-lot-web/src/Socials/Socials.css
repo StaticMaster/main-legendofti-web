@@ -1,0 +1,17 @@
+.social-subsection-twitch-button{
+    display: flex;
+    color: white;
+    background-color: transparent;
+    border:none;
+    font-size: 50px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.social-subsection-twitch-button:hover{
+    background-color:#6441a5;
+    text-decoration: none;
+
+}

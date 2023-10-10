@@ -54,6 +54,7 @@
 
   .social-section{
     background-color:#FFB6AD;
+    height: 50vh;
   }
 
   .socials-title{
@@ -74,6 +75,23 @@
     padding-top: 200px;
     border-radius: 50px;
     float: left;
+  }
+
+  .about-title{
+    color:#FFB6AD;
+    font-size: 110px;
+  }
+  
+  .footer-section{
+    background-color: #FFB6AD;
+    height: 10vh;
+  }
+
+  .footer-text{
+    color: white;
+    font-family: 'Open-Sans';
+    font-size: 22px;
+    padding-top: 20px;
   }
 
   .fade-in{

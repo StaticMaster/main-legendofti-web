@@ -2,7 +2,7 @@ import './App.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Homepage from '../src/Homepage/Homepage';
 import Socials from './Socials/Socials';
-// import MainPage from './MainPage/MainPage';
+import About from './About/About';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Routes>
       <Route path='/' element={<Homepage/>}/>
       <Route path='/socials' element={<Socials/>}/>
-      {/* <Route path='/main' element={<MainPage/>}/> */}
+      <Route path='/about' element={<About/>}/>
       </Routes>
       </BrowserRouter>
     </div>

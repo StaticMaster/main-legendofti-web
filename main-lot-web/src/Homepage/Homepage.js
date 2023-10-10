@@ -6,6 +6,7 @@ import Typewriter from 'typewriter-effect';
 import tipfp from "../images/ti-background.jpg";
 import tibgvid from '../images/updated-ti-background-vid.mp4';
 import Socials from '../Socials/Socials';
+import About from '../About/About';
 
 function Homepage() {
   return (
@@ -35,10 +36,17 @@ function Homepage() {
       </div>
     </div>
     <div className='social-section'>
-      <section id='Socials' className='socials-title'>Socials</section>
+      <section id='socials' className='socials-title'>Socials</section>
       <p className='social-text'>The Socials are a representation of me. My Twitch, Instagram, TikTok, Youtube, and Kick are a part of who I am.</p>
       <Socials/>
     </div>
+    <div className='about-section'>
+      <section id='about' className='about-title'>About Me</section>
+      <About/>
+    </div>
+    <footer className='footer-section'>
+      <p className='footer-text'>This entire website was built by the one and only Kaiju. You already know the vibes.</p>
+    </footer>
   </div>
 </div>
     </div>
