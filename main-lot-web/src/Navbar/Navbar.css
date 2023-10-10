@@ -1,0 +1,44 @@
+/* Navbar container styles */
+.navbar {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  height: 70px; /* Adjust the height as needed */
+  border-color: black;
+}
+
+/* Profile picture styles */
+.main-pfp {
+  width: 100px;
+  height: 110px;
+  margin-right: 20px; /* Add spacing between the image and links */
+}
+
+/* Navbar links styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display list items horizontally */
+  padding-left: 720px;
+}
+
+ul li {
+  margin-right: 50px; /* Add spacing between list items */
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 19px;
+  transition-duration: 0.5s;
+  padding-left: 150px;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #FFB6AD;
+  text-decoration-thickness: 5px;
+}
