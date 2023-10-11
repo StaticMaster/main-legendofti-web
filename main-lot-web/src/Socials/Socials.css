@@ -1,3 +1,9 @@
+.content-section{}
+
+
+
+
+
 .social-subsection-twitch-button{
     display: flex;
     color: white;
@@ -9,9 +15,17 @@
     border-radius: 20px;
     text-decoration: none;
 }
-
+.twitch-link{
+    text-decoration: none;
+}
 .social-subsection-twitch-button:hover{
     background-color:#6441a5;
     text-decoration: none;
 
+}
+
+.ti-twitch{
+    width: 800px;
+    height: 100%;
+    padding-left: 300px;
 }

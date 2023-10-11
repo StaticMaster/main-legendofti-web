@@ -10,7 +10,7 @@
   }
   
   .main-section {
-    display: flex;
+    /* display: flex; */
     padding-bottom: 200px;
     color: white;
     font-size: 100px; 
@@ -41,7 +41,7 @@
     color: #FFB6AD;
     font-size: 110px;
     padding-top: 340px;  
-    padding-left: 1290px;  
+    padding-left: 80px;  
     margin: 0;
     font-family: 'Open-Sans';
   }
@@ -54,7 +54,7 @@
 
   .social-section{
     background-color:#FFB6AD;
-    height: 50vh;
+    height: 100vh;
   }
 
   .socials-title{
@@ -84,7 +84,7 @@
   
   .footer-section{
     background-color: #FFB6AD;
-    height: 10vh;
+    height: 8vh;
   }
 
   .footer-text{
