@@ -29,3 +29,32 @@
     height: 90%;
     padding-left: 100px;
 }
+
+
+/* .mobile-section{
+display: flex;
+margin: 0;
+}
+
+.mobile-content{
+display: flex;
+} */
+
+.video-section{
+    display: flex;
+    margin-right: 40px;
+    justify-content: space-between;
+    padding-left: 120px;
+}
+.content-title{
+font-size: 65px;
+color: white;
+display: flex;
+word-spacing: 30px;
+}
+
+.ti-social{
+    height: 750px;
+    padding-top: 200px;
+    position: relative;
+}
