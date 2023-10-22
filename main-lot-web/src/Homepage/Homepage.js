@@ -38,6 +38,7 @@ function Homepage() {
     <div className='social-section'>
       <section id='socials' className='socials-title'>Socials</section>
       <p className='social-text'>The Socials are a representation of me. My Twitch, Instagram, TikTok, Youtube, and Kick are a part of who I am.</p>
+      <br></br>
       <Socials/>
     </div>
     <div className='about-section'>

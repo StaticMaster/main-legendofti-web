@@ -1,7 +1,47 @@
-.Carousel {
-  background-color: #ffb6ad;
+.carousel .carousel-status {
+  background-color: #FFB6AD;
+  color: none;
 }
 
-.carousel-root {
-  background-color: #ffb6ad;
+.slide.selected{
+  background-color:#FFB6AD ;
 }
+.control-arrow .control-prev .control-next{
+  background-color: #FFB6AD;
+  transition-duration: 0.5s;
+}
+
+.control-prev, .control-next:hover{
+  background-color: #FFB6AD;
+}
+
+
+.social-name{
+color:white;
+font-family: 'Open-Sans';
+font-size: 45px;
+display: block;
+align-items: center;
+}
+
+.social-name:hover{
+  cursor: pointer;
+}
+
+.social-link{
+  text-decoration:none;
+}
+.slideshow-video{
+  height: 450px;
+}
+
+.video-link:hover{
+  cursor: pointer;
+}
+
+/* @font-face {
+  font-family: 'Twitch-Font';
+  src: local('TFont'), url(../fonts/Twitchy.TV.woff) format('woff'); */
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+/* } */

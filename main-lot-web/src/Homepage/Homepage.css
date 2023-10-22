@@ -61,11 +61,15 @@
   .socials-title{
     color: white;
     font-size: 110px;
+    animation: slideIn 1s ease-in-out 0.5s;
+
   }
   .social-text{
     color: white;
     font-size: 45px;
     margin: 0;
+    animation: slideIn 1s ease-in-out 0.5s;
+
   }
 
 

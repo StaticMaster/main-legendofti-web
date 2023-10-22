@@ -1,4 +1,6 @@
-.content-section{}
+.content-section{
+    animation: slideIn 1s ease-in-out 0.5s;
+}
 
 
 
@@ -45,14 +47,15 @@ display: flex;
     margin-right: 40px;
     justify-content: space-between;
     padding-left: 81px;
+    
 }
 
 .content-title-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 95px;
-    padding-left: -15px; 
+    margin-right: 184px;
+    margin-left: 157px; 
 
 }
 .content-title{
@@ -62,10 +65,21 @@ color: white;
 
 .ti-social{
     height: 850px;
-    padding-top: 15px;
+    padding-top: -10px;
     position: relative;
 }
 
 .social-link{
 text-decoration: none;
 }
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

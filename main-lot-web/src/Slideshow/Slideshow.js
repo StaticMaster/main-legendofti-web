@@ -8,24 +8,24 @@ import titwitchpage from '../images/ti-twitch-page.mp4';
 const Slideshow = () => {
   return (
     <div className='carousel-section'>
-    <Carousel showArrows={false} className='carousel-root'>
+    <Carousel showArrows={true} autoPlay={true} interval={6000} infiniteLoop={true}>
     <div>
-    <video autoPlay loop muted className="ti-twitch">
-        <source src={titwitchpage} type="video/mp4" />
+    <video autoPlay loop muted className="slideshow-video">
+       <source src={titwitchpage} type="video/mp4" />
       </video>
-      <p className='social-name'>Twitch</p>
+     <a href='https://www.twitch.tv/legendof_ti' className='social-link'><p className='social-name'>Twitch</p></a> 
     </div>
     <div>
-    <video autoPlay loop muted className="ti-twitch">
+    <video autoPlay loop muted className="slideshow-video">
         <source src={titwitchpage} type="video/mp4" />
       </video>
-      <p className='social-name'>Twitch</p>
+      <a href='https://www.youtube.com/@LegendofTi/featured' className='social-link'><p className='social-name'>Youtube</p></a>
     </div>
     <div>
-    <video autoPlay loop muted className="ti-twitch">
+    <video autoPlay loop muted className="slideshow-video">
         <source src={titwitchpage} type="video/mp4" />
       </video>
-      <p className='social-name'>Twitch</p>
+      <a href='https://kick.com/legendof_ti' className='social-link'><p className='social-name'>Kick</p></a>
     </div>
     </Carousel>
     </div>

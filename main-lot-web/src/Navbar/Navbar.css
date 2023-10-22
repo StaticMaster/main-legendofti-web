@@ -30,7 +30,7 @@ ul li {
   margin-right: 50px; /* Add spacing between list items */
 }
 
-a {
+.navbar-link{
   text-decoration: none;
   color: #000000;
   font-size: 19px;
@@ -38,7 +38,7 @@ a {
   padding-left: 150px;
 }
 
-a:hover {
+.navbar-link:hover {
   text-decoration: underline;
   text-decoration-color: #FFB6AD;
   text-decoration-thickness: 5px;
