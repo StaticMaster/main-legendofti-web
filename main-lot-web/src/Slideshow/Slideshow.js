@@ -3,6 +3,7 @@ import './Slideshow.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import titwitchpage from '../images/ti-twitch-page.mp4';
+import tiyoutube from '../images/ti-youtube.mp4';
 
 
 const Slideshow = () => {
@@ -17,7 +18,7 @@ const Slideshow = () => {
     </div>
     <div>
     <video autoPlay loop muted className="slideshow-video">
-        <source src={titwitchpage} type="video/mp4" />
+        <source src={tiyoutube} type="video/mp4" />
       </video>
       <a href='https://www.youtube.com/@LegendofTi/featured' className='social-link'><p className='social-name'>Youtube</p></a>
     </div>
