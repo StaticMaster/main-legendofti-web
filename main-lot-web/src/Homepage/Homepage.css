@@ -31,6 +31,7 @@
   .content-wrapper{
     position: relative;
     z-index: 1;
+    animation: slideIn 1s ease-in-out 0.5s;
   }
 
   .text-wrapper{
@@ -63,7 +64,7 @@
   }
   .social-text{
     color: white;
-    font-size: 65px;
+    font-size: 45px;
     margin: 0;
   }
 
@@ -103,6 +104,17 @@
       opacity: 0;
     }
     to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
       opacity: 1;
     }
   }

@@ -44,17 +44,28 @@ display: flex;
     display: flex;
     margin-right: 40px;
     justify-content: space-between;
-    padding-left: 120px;
+    padding-left: 81px;
+}
+
+.content-title-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 95px;
+    padding-left: -15px; 
+
 }
 .content-title{
-font-size: 65px;
+font-size: 58.5px;
 color: white;
-display: flex;
-word-spacing: 30px;
 }
 
 .ti-social{
-    height: 750px;
-    padding-top: 200px;
+    height: 850px;
+    padding-top: 15px;
     position: relative;
+}
+
+.social-link{
+text-decoration: none;
 }
