@@ -40,9 +40,9 @@ function Homepage() {
                       <p className="sponsor-text">Sponsors</p>
                     </center>
                     <div className="sponsor-image-section">
-                      <img src={gameradvantage} className="gameradvantage-image"></img>
-                      <img src={ghost} className="ghost-image"></img>
-                      <img src={altcustoms} className="altcustoms-image"></img>
+                     <a href="https://gameradvantage.com/"><img src={gameradvantage} className="gameradvantage-image"></img></a> 
+                      <a href="https://www.ghostlifestyle.com/"><img src={ghost} className="ghost-image"></img></a>
+                     <a href="https://altcustoms.com/"><img src={altcustoms} className="altcustoms-image"></img></a> 
                     </div>
                   </div>
                   <span className="typewriter"></span>
