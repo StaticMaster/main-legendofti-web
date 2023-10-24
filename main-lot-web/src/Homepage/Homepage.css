@@ -114,14 +114,15 @@
 
 .footer-section {
   background-color: #ffb6ad;
-  height: 10vh;
+  position: relative;
+  bottom: -90px;
 }
 
 .footer-text {
   color: white;
   font-family: "Open-Sans";
   font-size: 22px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .fade-in {
