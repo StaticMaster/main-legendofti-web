@@ -1,20 +1,22 @@
 /* Navbar container styles */
 .navbar {
   display: flex;
-  align-items: center; /* Vertically center items */
+  align-items: center;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   padding: 10px;
-  height: 70px; /* Adjust the height as needed */
+  height: 70px; 
   border-color: black;
   /* width: 100vw; */
 }
+
+
 
 /* Profile picture styles */
 .main-pfp {
   width: 100px;
   height: 110px;
-  margin-right: 20px; /* Add spacing between the image and links */
+  margin-right: 20px; 
 }
 
 /* Navbar links styles */
@@ -22,12 +24,12 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex; /* Display list items horizontally */
+  display: flex;
   padding-left: 720px;
 }
 
 ul li {
-  margin-right: 50px; /* Add spacing between list items */
+  margin-right: 50px;
 }
 
 .navbar-link{
@@ -44,7 +46,7 @@ ul li {
   text-decoration-thickness: 5px;
 }
 
-/* @media (max-width: 1440px) {
+@media (max-width: 1440px) {
   a {
     font-size: 16px; 
     padding-left: 110px;
@@ -60,10 +62,43 @@ a:hover {
 
   .navbar{
     width: 100%;
-  } */
+  } 
 
-  /* .main-pfp {
+  .main-pfp {
     width: 100px;
     height: 110px;
     margin-right: 20px;
-  }   */
+  }  
+}
+/* mobile responsive section */
+
+/* .menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul {
+    display: ${menuOpen ? 'flex' : 'none'};
+    flex-direction: column;
+    text-align: centor;
+  }
+} */

@@ -1,0 +1,12 @@
+.hamburger{
+    display: none;
+}
+
+@media(max-width:768px){
+    .hamburger{
+        display: fixed;
+        padding-top: 10px;
+        margin-left: 10px;
+        z-index: 10;
+    }
+}

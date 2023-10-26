@@ -4,6 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import titwitchpage from '../images/ti-twitch-page.mp4';
 import tiyoutube from '../images/ti-youtube.mp4';
+import tikick from '../images/ti-kick.mp4';
 
 
 const Slideshow = () => {
@@ -24,7 +25,7 @@ const Slideshow = () => {
     </div>
     <div>
     <video autoPlay loop muted className="slideshow-video">
-        <source src={titwitchpage} type="video/mp4" />
+        <source src={tikick} type="video/mp4" />
       </video>
       <a href='https://kick.com/legendof_ti' className='social-link'><p className='social-name'>Kick</p></a>
     </div>
