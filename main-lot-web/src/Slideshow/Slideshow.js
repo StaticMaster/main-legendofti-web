@@ -10,7 +10,7 @@ import tikick from '../images/ti-kick.mp4';
 const Slideshow = () => {
   return (
     <div className='carousel-section'>
-    <Carousel showArrows={true} autoPlay={true} interval={6000} infiniteLoop={true}>
+    <Carousel showArrows={true} autoPlay={true} interval={6000} infiniteLoop={true} showThumbs={false}>
     <div>
     <video autoPlay loop muted className="slideshow-video">
        <source src={titwitchpage} type="video/mp4" />
